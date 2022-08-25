@@ -23,9 +23,13 @@ public class FootballRunner {
 		Double double1 = context.getBean(Double.class);
 		System.out.println("size of the double in terms of bit : " + double1);
 		Character character = context.getBean(Character.class);
-		System.out.println("char represents single character : " + character); 
+		System.out.println("char represents single character : " + character);
 		Boolean boolean1 = context.getBean(Boolean.class);
 		System.out.println("default value of boolean is : " + boolean1);
+
+		System.out.println(demo.brand);
+		System.out.println(demo.price);
+		System.out.println(demo.isAirFilled);
 
 	}
 

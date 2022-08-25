@@ -4,7 +4,11 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-   <bean class="com.xworkz.football.FootballSpringDemo"></bean>
+   <bean class="com.xworkz.football.FootballSpringDemo">
+    <constructor-arg name="brand" value="Puma"></constructor-arg>
+	<constructor-arg name="isAirFilled" value="false"></constructor-arg>
+    <constructor-arg name="price" value="5050.00D"></constructor-arg>
+   </bean>
    
    <bean class="java.lang.Byte"> <constructor-arg name="value" value="8"></constructor-arg></bean>
    <bean class ="java.lang.Short"> <constructor-arg name ="value" value="16"></constructor-arg></bean>
@@ -14,6 +18,17 @@
    <bean class = "java.lang.Double"> <constructor-arg name="value" value="64"></constructor-arg></bean>
    <bean class = "java.lang.Character"> <constructor-arg name="value" value="K"></constructor-arg></bean>
    <bean class="java.lang.Boolean"> <constructor-arg name ="value" value="false"></constructor-arg></bean>
-
-
+     
+  
+   
+   
+  
+   
+  
 </beans>
+
+
+
+
+
+
