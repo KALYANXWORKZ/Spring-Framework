@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+   <bean class="com.xworkz.football.FootballSpringDemo"></bean>
+   
+   <bean class="java.lang.Byte"> <constructor-arg name="value" value="8"></constructor-arg></bean>
+   <bean class ="java.lang.Short"> <constructor-arg name ="value" value="16"></constructor-arg></bean>
+   <bean class ="java.lang.Integer"> <constructor-arg name="value" value="32"></constructor-arg></bean>
+   <bean class ="java.lang.Long"> <constructor-arg name="value" value="64"></constructor-arg></bean>
+   <bean class ="java.lang.Float"> <constructor-arg name="value" value="32"></constructor-arg></bean>
+   <bean class = "java.lang.Double"> <constructor-arg name="value" value="64"></constructor-arg></bean>
+   <bean class = "java.lang.Character"> <constructor-arg name="value" value="K"></constructor-arg></bean>
+   <bean class="java.lang.Boolean"> <constructor-arg name ="value" value="false"></constructor-arg></bean>
+
+
+</beans>
