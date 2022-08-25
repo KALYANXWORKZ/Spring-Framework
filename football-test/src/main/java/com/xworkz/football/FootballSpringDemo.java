@@ -6,11 +6,11 @@ public class FootballSpringDemo {
 	public Boolean isAirFilled;
 	public Double price;
 
-//	public FootballSpringDemo() {
-//
-//		System.out.println(this.getClass().getSimpleName() + " Bean has been Created");
-//
-//	}
+	public FootballSpringDemo() {
+
+		System.out.println(this.getClass().getSimpleName() + " Bean has been Created");
+
+	}
 
 	public FootballSpringDemo(String brand) {
 		super();
