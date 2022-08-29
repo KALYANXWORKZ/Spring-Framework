@@ -9,6 +9,10 @@
      <property name="brand" value="samsung"/>
      <property name="id" value="101"/>
      <property name="color" value="black"/>
+     <property name="display" ref="display"/>
+     <property name="remote" ref="remote"/>
+     <property name="stand" ref="stand"/>
+     <property name="setUpBox" ref="setupbox"/>
      </bean>
      
      <bean id="display" class="com.xworkz.TvDisplay">
