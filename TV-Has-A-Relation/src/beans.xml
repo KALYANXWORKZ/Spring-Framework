@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+     
+     <bean id="tv" class ="com.xworkz.Tv">
+     <property name="brand" value="samsung"/>
+     <property name="id" value="101"/>
+     <property name="color" value="black"/>
+     </bean>
+     
+     <bean id="display" class="com.xworkz.TvDisplay">
+     <property name="type" value="LED"/>
+     <property name="madeIn" value="India"/>
+     </bean>
+     
+     <bean id="remote" class="com.xworkz.TvRemote">
+     <property name="type" value="With Shell"/>
+     <property name="noOfButtons" value="35"/>
+     </bean>
+     
+     <bean id="stand" class="com.xworkz.TvStand">
+     <property name="noOfLegs" value="3"/>
+     <property name="color" value="black"/>
+     </bean>
+     
+     <bean id="setupbox" class="com.xworkz.TvSetUpBox">
+     <property name="brand" value="bosch"/>
+     <property name="price" value="1350"/>
+     </bean>
+     
+
+</beans>
