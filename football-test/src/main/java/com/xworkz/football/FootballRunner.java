@@ -34,3 +34,20 @@ public class FootballRunner {
 	}
 
 }
+
+/* Console/output
+ * org.springframework.context.support.ClassPathXmlApplicationContext@cc285f4,
+ * started on Sat Sep 03 01:53:02 IST 2022 
+ * size of the byte in terms of bit : 8
+ * size of the short in terms of bit : 16 
+ * size of the int in terms of bit : 32
+ * size of the long in terms of bit : 64 
+ * size of the float in terms of bit :
+ * 32.0 size of the double in terms of bit : 64.0 
+ * char represents single character : K 
+ * default value of boolean is : false 
+ * Puma 
+ * 5050.0 
+ * false
+ */
+

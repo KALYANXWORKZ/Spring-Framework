@@ -16,14 +16,16 @@ public class Exam {
 		Student s1 = context.getBean("stu2", Student.class);
 		s1.cheating();
 
-		/*
-		 * Console/Output 
-		 * bean xml file loaded 
-		 *  Java cheating started
-		 *  Math cheating started
-		 *  Science cheating started
-		 */
-
 	}
 
 }
+
+
+/*
+ * Console/Output 
+ * 
+ * bean xml file loaded 
+ *  Java cheating started
+ *  Math cheating started
+ *  Science cheating started
+ */

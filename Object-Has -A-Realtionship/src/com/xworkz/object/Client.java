@@ -16,3 +16,10 @@ public class Client {
 	}
 
 }
+
+/* Console/output
+ * MathCheat Class Constructor called 
+ * xml file loaded 
+ * Math cheat started 
+ * Math cheat started
+ */
