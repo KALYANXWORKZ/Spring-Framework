@@ -24,3 +24,13 @@ public class TvTester {
 	}
 
 }
+
+/* Output
+ *--> Tv [brand=samsung, id=101, color=black, display=TvDisplay [type=LED,
+ * madeIn=India], remote=TvRemote [type=With Shell, noOfButtons=35],
+ * setUpBox=TvSetUpBox [brand=bosch, price=1350.0], stand=TvStand [noOfLegs=3,color=black]]
+ * --> TvDisplay [type=LED, madeIn=India]
+ * --> TvRemote [type=With Shell, noOfButtons=35]
+ * --> TvStand [noOfLegs=3, color=black]
+ *  -->TvSetUpBox [brand=bosch,price=1350.0]
+ */
