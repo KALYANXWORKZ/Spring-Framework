@@ -1,12 +1,13 @@
 package com.xworkz.football;
 
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class FootballRunner {
 
 	public static void main(String[] args) {
 
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("contextconf.xml");
+		ApplicationContext context = new ClassPathXmlApplicationContext("contextconf.xml");
 		System.out.println(context);
 		FootballSpringDemo demo = context.getBean(FootballSpringDemo.class);
 
