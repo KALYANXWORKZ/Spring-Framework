@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+	<bean class="com.xworkz.student.Student" name="stu">
+		<property name="usn" value="101" />
+		<property name="name" value="Kalyan" />
+		<property name="branch" value="civil Engg" />
+		<property name="college" value="BMSECE" />
+		<property name="university" value="VTU" />
+		<property name="feesPerYear" value="75000.0" />
+		<property name="totalStregnth" value="32" />
+		<property name="noOfBoys" value="13" />
+		<property name="noOfGirls" value="19" />
+		<property name="noOfFaculties" value="6" />
+		<property name="location" value="Bangalore" />
+		<property name="state" value="Karnatka" />
+		<property name="country" value="India" />
+		<property name="continent" value="Asia" />
+		<property name="courseDuration" value="3" />
+		<property name="principalName" value="Ravi" />
+
+	</bean>
+	
+	<bean class="com.xworkz.student.Student" name="stu1">
+		<property name="usn" value="102" />
+		<property name="name" value="Dayanand" />
+		<property name="branch" value="civil Engg" />
+		<property name="college" value="BMSECE" />
+		<property name="university" value="VTU" />
+		<property name="feesPerYear" value="75000.0" />
+		<property name="totalStregnth" value="32" />
+		<property name="noOfBoys" value="13" />
+		<property name="noOfGirls" value="19" />
+		<property name="noOfFaculties" value="6" />
+		<property name="location" value="Bangalore" />
+		<property name="state" value="Karnatka" />
+		<property name="country" value="India" />
+		<property name="continent" value="Asia" />
+		<property name="courseDuration" value="3" />
+		<property name="principalName" value="Ravi" />
+
+	</bean>
+
+</beans>
