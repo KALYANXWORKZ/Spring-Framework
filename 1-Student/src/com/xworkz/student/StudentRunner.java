@@ -9,7 +9,7 @@ public class StudentRunner {
 		ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		Student student = context.getBean("stu",Student.class);
 		System.out.println(student);
-		
+		 
 		Student student2 = context.getBean("stu1",Student.class);
 		System.out.println(student2);
 
