@@ -4,6 +4,6 @@ import com.xworkz.nirmala.entity.NirmalaEntity;
 
 public interface ServiceDAO {
 	
-	boolean save (NirmalaEntity entity);
+	boolean save (NirmalaEntity entity); 
 
 }
