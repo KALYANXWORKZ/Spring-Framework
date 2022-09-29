@@ -24,7 +24,8 @@ Prime Minister country :
 Marriage : <input type="radio" id="marriage" name="status" value="Married">Married
 		   <input type="radio" id="marriage" name="status" value="Unmarried">Unmarried <br><br>
 
-Party : <select name="PartyName">
+Party : <select id="pp" name="PartyName">
+
 <option>Select</option>
 <option value="BJP">BJP</option>
 <option value="Congress">CONGRESS</option>

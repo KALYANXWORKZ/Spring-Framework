@@ -38,7 +38,7 @@ public class PrimeMinisterServlet extends HttpServlet {
 		req.setAttribute("Name", name);
 		req.setAttribute("Country", country);
 		req.setAttribute("Marriage", marry);
-		req.setAttribute("PartyName:", pn);
+		req.setAttribute("PartyName", pn);
 		req.setAttribute("Age", age);
 		req.setAttribute("Gender", gender);
 		req.setAttribute("Period", period);
